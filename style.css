@@ -1,0 +1,277 @@
+/*
+
+	Title:			Master styles - Hugh's Reviews
+	Author: 		Hugh Labusohr [hugh_l@me.com]
+	Last Mod:		2013.01.16 10:41 AM
+
+ --------------------------------------------- */
+
+
+
+
+/*  My Custom Reset
+--------------------------------------------- */
+
+html, div, span, h1, h2, h3, h4, h5, h6, p, blockquote {
+	color: #333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	border: 0;
+	outline: 0;
+	background: transparent;
+}
+
+/*  PAGE STRUCTURE
+
+--------------------------------------------- */
+
+#wrap {
+	width: 85%;
+	max-width: 1680px;
+	min-width: 1000px;
+	margin: 0 auto;
+	background-color: rgb(251, 250, 245);
+}
+
+#banner {
+	min-width: 960px;
+	width: 100%;
+	background-color: rgb(251, 250, 245);
+	border-top: 5px solid rgb(255, 102, 68);
+	font-size: 1.5em;
+
+}
+
+#banner h1 {
+	color: rgb(43, 56, 68);
+	text-align: center;
+	text-transform:uppercase;
+	letter-spacing:4px;
+	padding: 8px 0 0 0;
+}
+
+/*  MAIN NAVIGATION (TOP-HORIZONTAL)
+
+--------------------------------------------- */
+
+#nav {
+	overflow: hidden;
+	font-family: Verdana, sans-serif;
+	margin: 0;
+	width: 100%;
+	min-width: 960px;
+	border-bottom: 1px solid rgb(43, 56, 68);
+}
+
+#nav ul {
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 50%;
+}
+
+#nav ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: 50%;
+}
+
+#nav ul li a {
+	display: block;
+	float: left;
+	margin: 0 12px;
+	padding: 15px 0 15px 0;
+	text-decoration: none;
+	color: rgb(67, 64, 77);
+	font-size: 1.6em;
+	text-transform: uppercase;
+}
+
+#nav ul li a:hover {
+	color: rgb(65, 183, 216);
+}
+
+#nav ul li.active a, #nav ul li.active a:hover {
+	color: rgb(255, 102, 68);
+	font-weight: bold;
+}
+
+/*  MAIN CONTENT STYLING - SITE-WIDE
+
+--------------------------------------------- */
+
+#main {
+	width: 100%;
+	margin: 0;
+	padding: 35px 0 0 0;
+	background-color: #fff;
+	/*background-color: #282828;*/
+}
+#main p {
+	color: rgb(34, 34, 34);
+	padding: 0 40px;
+}
+
+/*	For Accessibility - Skipping to Content*/
+#skip a, #return a {
+   position: absolute !important;
+   top: -9999px !important;
+   left: -9999px !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+}
+
+/* Used for conistent clearing of floated content learned from Dan Cedarholm's book "Handcrafted CSS */
+
+.group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+/*  Baseline Grid for Readability
+
+--------------------------------------------- */
+
+	/*  Creating a solid Baseline Grid for Better Readability per:  */
+	/*	http://joshnh.com/2011/08/03/how-to-set-up-a-baseline-grid/ */
+
+h1 {
+    font-size: 3em;
+    color: rgb(255, 102, 68);
+    line-height: 1;
+    margin-bottom: .5em;
+    }
+h2 {
+    font-size: 2.25em;
+    color: rgb(65, 55, 69);
+    line-height: 1.333333333;
+    margin-bottom: 0.666666666em;
+}
+h3 {
+    font-size: 1.5em;
+    color: rgb(58, 135, 173);
+    line-height: 1;
+    margin-bottom: 1em;
+}
+h4 {
+    font-size: 1.3125em;
+    line-height: 1.142857142;
+    margin-bottom: 1.142857142em;
+}
+h5 {
+    font-size: 1.125em;
+    line-height: 1.333333333;
+    margin-bottom: 1.333333333em;
+}
+h6 {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+p {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+/* Use the best possible ampersand again learned from Dan Cedarholm's book "Hand Crafted CSS */
+
+span.amp {
+	font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 1.2em;
+	color: #766557;
+}
+
+
+/*  PAGE-SPECIFIC STYLING:	ALBUMS
+--------------------------------------------- */
+
+.reviews p {
+	width: 960px;
+	padding: 20px;
+}
+
+.reviews h3{
+	padding: 20px;
+}
+
+.albumart {
+	border: 1px solid #efefef;
+	width: 300px;
+	margin: 20px;
+	float: left;
+}
+
+.albumart-alt {
+	border: 1px solid #efefef;
+	width: 300px;
+	margin: 20px;
+	float: right;
+}
+
+/*  PAGE-SPECIFIC STYLING:	CONCERTS
+--------------------------------------------- */
+
+.setlist {
+	list-style: none;
+}
+.concert{
+	display: block;
+	margin :0 auto;
+	padding-right :50px;
+	padding-left :50px;
+}
+
+/*  PAGE-SPECIFIC STYLING:	RESOURCES
+--------------------------------------------- */
+
+#reviews {
+	width: 33%;
+	float: left;
+}
+
+#concerts {
+	width: 33%;
+	float: left;
+}
+
+#shopping {
+	width: 33%;
+	float: left;
+}
+
+#labels {
+	width: 33%;
+	float: left;
+}
+
+/*  PAGE-SPECIFIC STYLING:	ABOUT ME
+--------------------------------------------- */
+.profile {
+	width: 168px;
+	margin: 20px;
+	float: left;
+}
+/*
+	pseudo-classes required order:
+		a:link
+		a:visited
+		a:hover
+		a:active
+*/
