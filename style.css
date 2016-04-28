@@ -88,7 +88,7 @@ header h1 {
 	display: block;
 	float: left;
 	margin: 0 12px;
-	padding: 15px 0 15px 0;
+	padding: 0 auto;
 	text-decoration: none;
 	color: rgb(67, 64, 77);
 	font-size: 1.6em;
@@ -112,7 +112,7 @@ section {
 	width: 100%;
 	margin: 0;
 	padding: 35px 0 0 0;
-	background-color: #fff;
+	/*background-color: #fff;*/
 	/*background-color: #282828;*/
 }
 section p {
