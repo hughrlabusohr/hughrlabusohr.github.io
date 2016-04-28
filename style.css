@@ -150,30 +150,30 @@ h1,h2,h3,h4,h5,h6{
 	/*	http://joshnh.com/2011/08/03/how-to-set-up-a-baseline-grid/ */
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     color: rgb(255, 102, 68);
     line-height: 1;
     margin-bottom: .5em;
     }
 h2 {
-    font-size: 2.25em;
+    font-size: 1.50em;
     color: rgb(65, 55, 69);
     line-height: 1.333333333;
     margin-bottom: 0.666666666em;
 }
 h3 {
-    font-size: 1.5em;
+    font-size: 1.25em;
     color: rgb(58, 135, 173);
     line-height: 1;
     margin-bottom: 1em;
 }
 h4 {
-    font-size: 1.3125em;
+    font-size: 1.15em;
     line-height: 1.142857142;
     margin-bottom: 1.142857142em;
 }
 h5 {
-    font-size: 1.125em;
+    font-size: 1.05em;
     line-height: 1.333333333;
     margin-bottom: 1.333333333em;
 }
